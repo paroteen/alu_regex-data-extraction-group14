@@ -1,5 +1,5 @@
 ![Regex hackaton](https://i.ytimg.com/vi/GyJtxd14DTc/maxresdefault.jpg)
-# Regex Data Extraction - Group N
+# Regex Data Extraction - Group 14
 
 ## Project Overview
 
@@ -68,7 +68,7 @@ In this hackathon, we will use regular expressions to efficiently extract data f
 ### Project Requirements
 
 - Each group will implement solutions for a minimum of **5 out of the 8 challenges** listed above. If all challenges are completed, the remaining three will be considered **bonus challenges**.
-- The project will be implemented using either **Python** or **JavaScript**.
+- The project will be implemented using Python.
 - Each team member must commit code to the project repository at least once.
 
 ---
@@ -76,7 +76,7 @@ In this hackathon, we will use regular expressions to efficiently extract data f
 ## Team Information
 
 - **Team Name**: Group N
-- **GitHub Repository**: [alu_regex-data-extraction-groupN](https://github.com/alu_regex-data-extraction-groupN)
+- **GitHub Repository**: [alu_regex-data-extraction-group14](https://github.com/alu_regex-data-extraction-groupN)
 
 ---
 
@@ -85,21 +85,21 @@ In this hackathon, we will use regular expressions to efficiently extract data f
 The repository will be structured as follows:
 
 ```bash
-alu_regex-data-extraction-groupN/
+alu_regex-data-extraction-group14/
 │
 ├── regex/
-│   ├── email_extractor.py  # or .js
-│   ├── url_extractor.py    # or .js
-│   ├── phone_extractor.py  # or .js
-│   ├── cc_extractor.py     # or .js
-│   ├── time_extractor.py   # or .js
-│   ├── html_extractor.py   # or .js
-│   ├── hashtag_extractor.py # or .js
-│   ├── currency_extractor.py # or .js
+│   ├── email_extractor.py  
+│   ├── url_extractor.py    
+│   ├── phone_extractor.py  
+│   ├── cc_extractor.py     
+│   ├── time_extractor.py   
+│   ├── html_extractor.py   
+│   ├── hashtag_extractor.py 
+│   ├── currency_extractor.py 
 │
 ├── README.md
 ├── CONTRIBUTING.md
 └── tests/
-    ├── test_email_extractor.py  # or .js
-    ├── test_url_extractor.py    # or .js
+    ├── test_email_extractor.py  
+    ├── test_url_extractor.py    
     └── ...
