@@ -2,7 +2,7 @@
 
 import re
 
-# Define the test text with all the data included
+# Define the test text with all the data included email  and phone numbers
 Regex_text = """
 Emails: user@example.com, firstname.lastname@company.co.uk
 URLs: https://user@example.com, http://subdomain.example.org/page
@@ -14,7 +14,7 @@ Hashtags: #example, #ThisIsAHashtag
 Currency amounts: $19.99, $1,234.56
 """
 
-# Define regex patterns
+# Define regex patterns su
 email_pattern = r'\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b'
 url_pattern = r'https?:\/\/[^\s,<>"]+'
 phone_pattern = r'\(?\d{3}\)?[ .-]?\d{3}[ .-]?\d{4}'
